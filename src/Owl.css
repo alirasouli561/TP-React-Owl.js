@@ -1,0 +1,46 @@
+/* Style de la carte hibou */
+.owl-card {
+  background-color: #1e1e2f;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  display: inline-block;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.owl-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style de l'image du hibou */
+.owl-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au survol de l'image (bonus) */
+.owl-image-hovered {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(97, 218, 251, 0.4);
+}
+
+/* Texte descriptif */
+.owl-description {
+  color: #c9d1d9;
+  font-size: 1rem;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+/* Message si aucune image n'est fournie */
+.owl-no-image {
+  color: #f0a500;
+  font-size: 1.1rem;
+  font-style: italic;
+  padding: 40px 0;
+}
